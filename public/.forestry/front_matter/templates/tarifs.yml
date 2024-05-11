@@ -1,0 +1,30 @@
+---
+label: tarifs
+hide_body: false
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: title
+- name: price
+  type: text
+  config:
+    required: false
+  label: price
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: description
+pages:
+- src/tarifs/famille.md
+- src/tarifs/il-etait-une-fois.md
+- src/tarifs/j-immortalise-l-evenement.md
+- src/tarifs/juste-moi.md
+- src/tarifs/mon-bebe.md
+- src/tarifs/pour-deux.md

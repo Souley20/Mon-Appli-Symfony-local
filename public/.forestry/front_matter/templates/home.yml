@@ -1,0 +1,21 @@
+---
+label: home
+hide_body: false
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: title
+- name: subtitle
+  type: text
+  config:
+    required: false
+  label: subtitle
+- name: picture
+  type: file
+  config:
+    maxSize: 64
+  label: picture
+pages:
+- src/homes/cantin.md
